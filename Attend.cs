@@ -1,1 +1,4 @@
-class Attend{}
+class Attend{
+
+    int id;
+}
