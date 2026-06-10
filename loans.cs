@@ -3,10 +3,11 @@ public class loans
 {
 public int id;
 public double  amunt;
+
 public loans(int idloans, double amuntadd    )
     {
         id = idloans;
-amunt=idloans;
+amunt=amuntadd;
     }
 public int getId()
     {
@@ -14,10 +15,12 @@ public int getId()
 
 
     }
+
 public double getamunt()
     {
+
         return amunt;
-    }
+    } 
 
 
 

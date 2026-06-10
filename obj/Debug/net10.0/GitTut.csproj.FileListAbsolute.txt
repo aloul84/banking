@@ -1,0 +1,15 @@
+C:\Users\Amal\banking\bin\Debug\net10.0\GitTut.exe
+C:\Users\Amal\banking\bin\Debug\net10.0\GitTut.deps.json
+C:\Users\Amal\banking\bin\Debug\net10.0\GitTut.runtimeconfig.json
+C:\Users\Amal\banking\bin\Debug\net10.0\GitTut.dll
+C:\Users\Amal\banking\bin\Debug\net10.0\GitTut.pdb
+C:\Users\Amal\banking\obj\Debug\net10.0\GitTut.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\Amal\banking\obj\Debug\net10.0\GitTut.AssemblyInfoInputs.cache
+C:\Users\Amal\banking\obj\Debug\net10.0\GitTut.AssemblyInfo.cs
+C:\Users\Amal\banking\obj\Debug\net10.0\GitTut.csproj.CoreCompileInputs.cache
+C:\Users\Amal\banking\obj\Debug\net10.0\GitTut.sourcelink.json
+C:\Users\Amal\banking\obj\Debug\net10.0\GitTut.dll
+C:\Users\Amal\banking\obj\Debug\net10.0\refint\GitTut.dll
+C:\Users\Amal\banking\obj\Debug\net10.0\GitTut.pdb
+C:\Users\Amal\banking\obj\Debug\net10.0\GitTut.genruntimeconfig.cache
+C:\Users\Amal\banking\obj\Debug\net10.0\ref\GitTut.dll
