@@ -24,6 +24,7 @@ public string GetName()
     public void SetName( string FullName)
     {
         name = FullName;
+        //plaese convert to small
     }
 
 
