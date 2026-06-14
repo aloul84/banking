@@ -3,7 +3,7 @@
 
 public class Account
 {
-int id;
+    int id;
 string name;
 string type;
 
@@ -24,7 +24,14 @@ public string GetName()
     public void SetName( string FullName)
     {
         name = FullName;
-        //plaese convert to small
+    }
+    public void SetId(int idnumber)
+    {
+        id= idnumber;
+    }
+    public void SetType(string gtype)
+    {
+        type=gtype;
     }
 
 
