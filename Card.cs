@@ -10,7 +10,7 @@ public class Card
  public  Card(string cName)
     {
         Random rand = new Random();
-        cardId = rand.Next(1, 100);
+        cardId = rand.Next(1, 55);
         cardName=cName;
     }
   
