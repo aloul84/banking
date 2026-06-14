@@ -13,5 +13,5 @@ public Account (int ID, string NAME,string TYPE)
         name=NAME;
         type=TYPE;
     }
-
+   string [] AccountType = new string [3] {"ILS","USD","JOD"};
 }

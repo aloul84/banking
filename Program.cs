@@ -1,4 +1,5 @@
-﻿class Program
+﻿
+class Program
 {
     static void Main(string[] args)
     {
@@ -13,14 +14,23 @@
         Console.WriteLine("User Created:"+name);
         Console.WriteLine("User Created:");
         Console.WriteLine(name);
-       //account create
+     //----------------account create-----------------------------
        Console.WriteLine("Enter Accont id:");
        int ID = int.Parse(Console.ReadLine());
         Console.WriteLine("Enter Account Name:");
        string NAME=Console.ReadLine();
        Console.WriteLine("EnterAccount Type:");
        string TYPE = Console.ReadLine();
+       string [] AccountType = new string [3] {"ILS","USD","JOD"};
+
+          if(AccountType.Contains(TYPE))
+            {
+              Console.WriteLine("Input Valid Value: ILS or USD or JOD");
+               return;
+            } 
+
        Console.WriteLine("Account Created");
+       Console.WriteLine($"Account Informations Is: "+"id:"+ID +"  Name:"+NAME + "  Type:"+TYPE);
  
     }
 }
