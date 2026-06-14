@@ -18,8 +18,8 @@ public class Card
 
     {
 
-      Console.WriteLine("User name is " + cardName);
-      Console.WriteLine("card id is " + cardId);
+      Console.WriteLine("User name is...... " + cardName);
+      Console.WriteLine("card id is......... " + cardId);
 
      
       }
