@@ -1,14 +1,18 @@
 {
   "version": 2,
-<<<<<<< HEAD
   "dgSpecHash": "GpASqmj4AGk=",
   "success": true,
   "projectFilePath": "D:\\GetTutorial\\banking\\GitTut.csproj",
-=======
-  "dgSpecHash": "8Oq68aCCU1I=",
-  "success": true,
-  "projectFilePath": "C:\\Users\\muath\\banking\\GitTut.csproj",
->>>>>>> 26e459728eb4a42e5f1526b320ca1e49a22e68fe
   "expectedPackageFiles": [],
-  "logs": []
+  "logs": [
+    {
+      "code": "Undefined",
+      "level": "Warning",
+      "message": "Problem reading the cache file D:\\GetTutorial\\banking\\obj\\project.nuget.cache : '<' is an invalid start of a property name. Expected a '\"'. Path: $ | LineNumber: 2 | BytePositionInLine: 0.",
+      "projectPath": "D:\\GetTutorial\\banking\\GitTut.csproj",
+      "warningLevel": 1,
+      "filePath": "D:\\GetTutorial\\banking\\GitTut.csproj",
+      "targetGraphs": []
+    }
+  ]
 }

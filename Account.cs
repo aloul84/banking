@@ -3,36 +3,15 @@
 
 public class Account
 {
-    int id;
-string name;
-string type;
+    public int id {get;set;}
+public string name {get;set;}
+public string type {get;set;}
 
-public string GetName()
-
+public Account (int ID, string NAME,string TYPE)
     {
-       return name;
+        id = ID;
+        name=NAME;
+        type=TYPE;
     }
-
-    public int GetId()
-    {
-        return id;
-    }
-    public string Gettype()
-    {
-        return type;
-    }
-    public void SetName( string FullName)
-    {
-        name = FullName;
-    }
-    public void SetId(int idnumber)
-    {
-        id= idnumber;
-    }
-    public void SetType(string gtype)
-    {
-        type=gtype;
-    }
-
 
 }
