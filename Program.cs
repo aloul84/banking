@@ -11,11 +11,10 @@ class Program
 
         Logins user = new Logins(id, name);
 
+        Console.WriteLine("User Created:"+name);
         Console.WriteLine("User Created:");
         Console.WriteLine(name);
-
-
-
+        
         Account account1 = new Account() ;
         account1.SetName("Rami");
         account1.SetId(2040);
