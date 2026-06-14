@@ -13,7 +13,11 @@ using System.Reflection;
 [assembly: System.Reflection.AssemblyCompanyAttribute("GitTut")]
 [assembly: System.Reflection.AssemblyConfigurationAttribute("Debug")]
 [assembly: System.Reflection.AssemblyFileVersionAttribute("1.0.0.0")]
+<<<<<<< HEAD
 [assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+9635feea26526634161179009e6839188c779b46")]
+=======
+[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+8430fcff84da3a474e56dbbd1e510192f7873d20")]
+>>>>>>> 26e459728eb4a42e5f1526b320ca1e49a22e68fe
 [assembly: System.Reflection.AssemblyProductAttribute("GitTut")]
 [assembly: System.Reflection.AssemblyTitleAttribute("GitTut")]
 [assembly: System.Reflection.AssemblyVersionAttribute("1.0.0.0")]

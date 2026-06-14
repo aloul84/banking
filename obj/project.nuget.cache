@@ -1,8 +1,14 @@
 {
   "version": 2,
+<<<<<<< HEAD
   "dgSpecHash": "GpASqmj4AGk=",
   "success": true,
   "projectFilePath": "D:\\GetTutorial\\banking\\GitTut.csproj",
+=======
+  "dgSpecHash": "8Oq68aCCU1I=",
+  "success": true,
+  "projectFilePath": "C:\\Users\\muath\\banking\\GitTut.csproj",
+>>>>>>> 26e459728eb4a42e5f1526b320ca1e49a22e68fe
   "expectedPackageFiles": [],
   "logs": []
 }

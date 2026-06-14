@@ -1,6 +1,7 @@
 {
   "format": 1,
   "restore": {
+<<<<<<< HEAD
     "D:\\GetTutorial\\banking\\GitTut.csproj": {}
   },
   "projects": {
@@ -12,12 +13,29 @@
         "projectPath": "D:\\GetTutorial\\banking\\GitTut.csproj",
         "packagesPath": "C:\\Users\\Rami\\.nuget\\packages\\",
         "outputPath": "D:\\GetTutorial\\banking\\obj\\",
+=======
+    "C:\\Users\\muath\\banking\\GitTut.csproj": {}
+  },
+  "projects": {
+    "C:\\Users\\muath\\banking\\GitTut.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "C:\\Users\\muath\\banking\\GitTut.csproj",
+        "projectName": "GitTut",
+        "projectPath": "C:\\Users\\muath\\banking\\GitTut.csproj",
+        "packagesPath": "C:\\Users\\muath\\.nuget\\packages\\",
+        "outputPath": "C:\\Users\\muath\\banking\\obj\\",
+>>>>>>> 26e459728eb4a42e5f1526b320ca1e49a22e68fe
         "projectStyle": "PackageReference",
         "fallbackFolders": [
           "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
         ],
         "configFilePaths": [
+<<<<<<< HEAD
           "C:\\Users\\Rami\\AppData\\Roaming\\NuGet\\NuGet.Config",
+=======
+          "C:\\Users\\muath\\AppData\\Roaming\\NuGet\\NuGet.Config",
+>>>>>>> 26e459728eb4a42e5f1526b320ca1e49a22e68fe
           "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.FallbackLocation.config",
           "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
         ],
@@ -65,7 +83,11 @@
               "privateAssets": "all"
             }
           },
+<<<<<<< HEAD
           "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\10.0.201/PortableRuntimeIdentifierGraph.json",
+=======
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\10.0.203/PortableRuntimeIdentifierGraph.json",
+>>>>>>> 26e459728eb4a42e5f1526b320ca1e49a22e68fe
           "packagesToPrune": {
             "Microsoft.CSharp": "(,4.7.32767]",
             "Microsoft.VisualBasic": "(,10.4.32767]",
