@@ -12,7 +12,6 @@ class Program
 
         Logins user = new Logins(id, name);
 
-        Console.WriteLine("User Created:");
-        Console.WriteLine(name);
+        Console.WriteLine("User Created:"+name);
     }
 }
