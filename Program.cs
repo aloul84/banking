@@ -1,4 +1,8 @@
-﻿class Program
+﻿
+
+
+
+class Program
 {
     static void Main(string[] args)
     {
@@ -21,6 +25,14 @@
        Console.WriteLine("EnterAccount Type:");
        string TYPE = Console.ReadLine();
        Console.WriteLine("Account Created");
+
+
+
+      Console.WriteLine("Hello, World!");
+
+      Card cardemp1 = new Card("sami");
+
+      cardemp1.printCard();
  
     }
 }

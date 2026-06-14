@@ -1,6 +1,19 @@
 {
   "format": 1,
   "restore": {
+<<<<<<< HEAD
+    "d:\\Vscode projects\\GitTutotrial\\banking\\GitTut.csproj": {}
+  },
+  "projects": {
+    "d:\\Vscode projects\\GitTutotrial\\banking\\GitTut.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "d:\\Vscode projects\\GitTutotrial\\banking\\GitTut.csproj",
+        "projectName": "GitTut",
+        "projectPath": "d:\\Vscode projects\\GitTutotrial\\banking\\GitTut.csproj",
+        "packagesPath": "C:\\Users\\Ali\\.nuget\\packages\\",
+        "outputPath": "d:\\Vscode projects\\GitTutotrial\\banking\\obj\\",
+=======
     "D:\\GetTutorial\\banking\\GitTut.csproj": {}
   },
   "projects": {
@@ -12,12 +25,17 @@
         "projectPath": "D:\\GetTutorial\\banking\\GitTut.csproj",
         "packagesPath": "C:\\Users\\Rami\\.nuget\\packages\\",
         "outputPath": "D:\\GetTutorial\\banking\\obj\\",
+>>>>>>> 0f9cd71d6196adc606ea85d827e6572c3fec9ce7
         "projectStyle": "PackageReference",
         "fallbackFolders": [
           "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
         ],
         "configFilePaths": [
+<<<<<<< HEAD
+          "C:\\Users\\Ali\\AppData\\Roaming\\NuGet\\NuGet.Config",
+=======
           "C:\\Users\\Rami\\AppData\\Roaming\\NuGet\\NuGet.Config",
+>>>>>>> 0f9cd71d6196adc606ea85d827e6572c3fec9ce7
           "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.FallbackLocation.config",
           "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
         ],
