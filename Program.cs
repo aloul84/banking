@@ -1,5 +1,4 @@
-﻿
-class Program
+﻿class Program
 {
     static void Main(string[] args)
     {
@@ -11,6 +10,7 @@ class Program
 
         Logins user = new Logins(id, name);
 
+        Console.WriteLine("User Created:"+name);
         Console.WriteLine("User Created:");
         Console.WriteLine(name);
        //account create
@@ -21,11 +21,6 @@ class Program
        Console.WriteLine("EnterAccount Type:");
        string TYPE = Console.ReadLine();
        Console.WriteLine("Account Created");
-
-       
-        
-
-
-
+ 
     }
 }
