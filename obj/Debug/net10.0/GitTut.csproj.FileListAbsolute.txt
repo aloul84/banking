@@ -13,3 +13,18 @@ D:\GetTutorial\banking\obj\Debug\net10.0\refint\GitTut.dll
 D:\GetTutorial\banking\obj\Debug\net10.0\GitTut.pdb
 D:\GetTutorial\banking\obj\Debug\net10.0\GitTut.genruntimeconfig.cache
 D:\GetTutorial\banking\obj\Debug\net10.0\ref\GitTut.dll
+D:\Vscode projects\GitTutotrial\banking\obj\Debug\net10.0\GitTut.GeneratedMSBuildEditorConfig.editorconfig
+D:\Vscode projects\GitTutotrial\banking\obj\Debug\net10.0\GitTut.AssemblyInfoInputs.cache
+D:\Vscode projects\GitTutotrial\banking\obj\Debug\net10.0\GitTut.AssemblyInfo.cs
+D:\Vscode projects\GitTutotrial\banking\obj\Debug\net10.0\GitTut.csproj.CoreCompileInputs.cache
+D:\Vscode projects\GitTutotrial\banking\obj\Debug\net10.0\GitTut.sourcelink.json
+D:\Vscode projects\GitTutotrial\banking\obj\Debug\net10.0\GitTut.dll
+D:\Vscode projects\GitTutotrial\banking\obj\Debug\net10.0\refint\GitTut.dll
+D:\Vscode projects\GitTutotrial\banking\obj\Debug\net10.0\GitTut.pdb
+D:\Vscode projects\GitTutotrial\banking\bin\Debug\net10.0\GitTut.exe
+D:\Vscode projects\GitTutotrial\banking\bin\Debug\net10.0\GitTut.deps.json
+D:\Vscode projects\GitTutotrial\banking\bin\Debug\net10.0\GitTut.runtimeconfig.json
+D:\Vscode projects\GitTutotrial\banking\bin\Debug\net10.0\GitTut.dll
+D:\Vscode projects\GitTutotrial\banking\bin\Debug\net10.0\GitTut.pdb
+D:\Vscode projects\GitTutotrial\banking\obj\Debug\net10.0\GitTut.genruntimeconfig.cache
+D:\Vscode projects\GitTutotrial\banking\obj\Debug\net10.0\ref\GitTut.dll
