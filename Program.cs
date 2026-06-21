@@ -30,9 +30,26 @@ class Program
 
       Console.WriteLine("Hello, World!");
 
-      Card cardemp1 = new Card("sami");
+ //Employee  employees = [2];
 
-      cardemp1.printCard();
+List<Employee> employees = new List<Employee>();
+
+Employee em1 = new Employee();
+//Card card1 = new Card("card 1 ");
+    
+employees.Add(em1);  
+
+Employee em2 = new Employee();
+//Card card2 = new Card("card2 ");
+    // em2.card = card2;
+     employees.Add(em2);  
+
+for (int i = 0; i < employees.Count; i++)
+{
+         employees[i].card.printCard();
+
+}
+
  
     }
 }

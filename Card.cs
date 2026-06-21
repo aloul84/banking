@@ -1,4 +1,5 @@
 using System.Collections;
+using System.Runtime.InteropServices;
 
 public class Card
 {
@@ -6,6 +7,7 @@ public class Card
   private int cardId;
   private string cardName;
 
+List<Card> cards = new List<Card>();
 
  public  Card(string cName)
     {
@@ -18,14 +20,23 @@ public class Card
 
     {
 
+       
+
       Console.WriteLine("User name is...... " + cardName);
       Console.WriteLine("card id is......... " + cardId);
 
      
+
+
       }
 
-
-
+    public void PrintAllCards(List<Card> cards)
+{
+    for (int i = 0; i < cards.Count; i++)
+    {
+        cards[i].printCard();
+    }
+}  
 
 
 }
