@@ -1,11 +1,8 @@
-﻿
-
-
-
-class Program
+﻿class Program
 {
     static void Main(string[] args)
     {
+        Console.WriteLine("***********************");
         Console.Write("Enter ID: ");
         int id = int.Parse(Console.ReadLine());
 
