@@ -1,31 +1,25 @@
+using System;
 using System.Collections;
 
 public class Card
 {
+    private int cardId;
+    private string cardName;
 
-  private int cardId;
-  private string cardName;
-
-
- public  Card(string cName)
+    public Card(string cName)
     {
         Random rand = new Random();
         cardId = rand.Next(1, 55);
-        cardName=cName;
+        cardName = cName;
     }
-  
-    public  void printCard()
 
+    public void printCard()
     {
+        Console.WriteLine(this.ToString());
+    }
 
-      Console.WriteLine("User name is...... " + cardName);
-      Console.WriteLine("card id is......... " + cardId);
-
-     
-      }
-
-
-
-
-
+    public override string ToString()
+    {
+        return $"[Card] Name: {cardName}, ID: {cardId}";
+    }
 }

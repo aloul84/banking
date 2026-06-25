@@ -1,38 +1,80 @@
-﻿
-
-
+using System;
 
 class Program
 {
     static void Main(string[] args)
     {
-        Console.Write("Enter ID: ");
-        int id = int.Parse(Console.ReadLine());
+        Console.WriteLine("========================================");
+        Console.WriteLine("      RECORDS MANAGEMENT SYSTEM        ");
+        Console.WriteLine("========================================");
 
-        Console.Write("Enter Name: ");
-        string name = Console.ReadLine();
+        // 1. Logins
+        Console.WriteLine("\n--- Create Login ---");
+        int loginId = ReadInt("Enter Login ID: ");
+        string loginName = ReadString("Enter Login Name: ");
+        Logins user = new Logins(loginId, loginName);
 
-        Logins user = new Logins(id, name);
+        // 2. Account
+        Console.WriteLine("\n--- Create Account ---");
+        int accId = ReadInt("Enter Account ID: ");
+        string accName = ReadString("Enter Account Name: ");
+        string accType = ReadString("Enter Account Type: ");
+        Account account = new Account(accId, accName, accType);
 
-        Console.WriteLine("User Created:"+name);
-        Console.WriteLine("User Created:");
-        Console.WriteLine(name);
-       //account create
-       Console.WriteLine("Enter Accont id:");
-       int ID = int.Parse(Console.ReadLine());
-        Console.WriteLine("Enter Account Name:");
-       string NAME=Console.ReadLine();
-       Console.WriteLine("EnterAccount Type:");
-       string TYPE = Console.ReadLine();
-       Console.WriteLine("Account Created");
+        // 3. Employee
+        Console.WriteLine("\n--- Create Employee ---");
+        int empId = ReadInt("Enter Employee ID: ");
+        string empName = ReadString("Enter Employee Name: ");
+        Employee employee = new Employee(empId, empName);
 
+        // 4. Attend
+        Console.WriteLine("\n--- Create Attendance Record ---");
+        int attId = ReadInt("Enter Attendance ID: ");
+        int attTime = ReadInt("Enter Time Long (minutes): ");
+        Attend attend = new Attend(attId, attTime);
 
+        // 5. Card
+        Console.WriteLine("\n--- Create Card ---");
+        string cardOwner = ReadString("Enter Card Owner Name: ");
+        Card card = new Card(cardOwner);
 
-      Console.WriteLine("Hello, World!");
+        // Beautiful Output
+        Console.WriteLine("\n" + new string('=', 40));
+        Console.WriteLine("          SUMMARY OF CREATED OBJECTS      ");
+        Console.WriteLine(new string('=', 40));
 
-      Card cardemp1 = new Card("sami");
+        PrintResult(user.ToString());
+        PrintResult(account.ToString());
+        PrintResult(employee.ToString());
+        PrintResult(attend.ToString());
+        PrintResult(card.ToString());
 
-      cardemp1.printCard();
- 
+        Console.WriteLine(new string('=', 40));
+        Console.WriteLine("         Operation Completed.           ");
+        Console.WriteLine(new string('=', 40));
+    }
+
+    static string ReadString(string prompt)
+    {
+        Console.Write(prompt);
+        return Console.ReadLine() ?? string.Empty;
+    }
+
+    static int ReadInt(string prompt)
+    {
+        while (true)
+        {
+            Console.Write(prompt);
+            if (int.TryParse(Console.ReadLine(), out int result))
+            {
+                return result;
+            }
+            Console.WriteLine("Invalid input. Please enter a valid integer.");
+        }
+    }
+
+    static void PrintResult(string info)
+    {
+        Console.WriteLine($" >> {info}");
     }
 }

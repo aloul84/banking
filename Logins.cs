@@ -1,4 +1,4 @@
-class Logins
+public class Logins
 {
     public int Id { get; set; }
     public string Name { get; set; }
@@ -7,5 +7,10 @@ class Logins
     {
         Id = id;
         Name = name;
+    }
+
+    public override string ToString()
+    {
+        return $"[Logins] ID: {Id}, Name: {Name}";
     }
 }
