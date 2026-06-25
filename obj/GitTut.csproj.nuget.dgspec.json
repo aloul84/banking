@@ -1,49 +1,26 @@
 {
   "format": 1,
   "restore": {
-<<<<<<< HEAD
-    "d:\\Vscode projects\\GitTutotrial\\banking\\GitTut.csproj": {}
+    "/app/GitTut.csproj": {}
   },
   "projects": {
-    "d:\\Vscode projects\\GitTutotrial\\banking\\GitTut.csproj": {
+    "/app/GitTut.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "d:\\Vscode projects\\GitTutotrial\\banking\\GitTut.csproj",
+        "projectUniqueName": "/app/GitTut.csproj",
         "projectName": "GitTut",
-        "projectPath": "d:\\Vscode projects\\GitTutotrial\\banking\\GitTut.csproj",
-        "packagesPath": "C:\\Users\\Ali\\.nuget\\packages\\",
-        "outputPath": "d:\\Vscode projects\\GitTutotrial\\banking\\obj\\",
-=======
-    "D:\\GetTutorial\\banking\\GitTut.csproj": {}
-  },
-  "projects": {
-    "D:\\GetTutorial\\banking\\GitTut.csproj": {
-      "version": "1.0.0",
-      "restore": {
-        "projectUniqueName": "D:\\GetTutorial\\banking\\GitTut.csproj",
-        "projectName": "GitTut",
-        "projectPath": "D:\\GetTutorial\\banking\\GitTut.csproj",
-        "packagesPath": "C:\\Users\\Rami\\.nuget\\packages\\",
-        "outputPath": "D:\\GetTutorial\\banking\\obj\\",
->>>>>>> 0f9cd71d6196adc606ea85d827e6572c3fec9ce7
+        "projectPath": "/app/GitTut.csproj",
+        "packagesPath": "/home/jules/.nuget/packages/",
+        "outputPath": "/app/obj/",
         "projectStyle": "PackageReference",
-        "fallbackFolders": [
-          "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
-        ],
         "configFilePaths": [
-<<<<<<< HEAD
-          "C:\\Users\\Ali\\AppData\\Roaming\\NuGet\\NuGet.Config",
-=======
-          "C:\\Users\\Rami\\AppData\\Roaming\\NuGet\\NuGet.Config",
->>>>>>> 0f9cd71d6196adc606ea85d827e6572c3fec9ce7
-          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.FallbackLocation.config",
-          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
+          "/home/jules/.nuget/NuGet/NuGet.Config"
         ],
         "originalTargetFrameworks": [
           "net10.0"
         ],
         "sources": {
-          "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
+          "/usr/lib/dotnet/library-packs": {},
           "https://api.nuget.org/v3/index.json": {}
         },
         "frameworks": {
@@ -62,7 +39,7 @@
           "auditLevel": "low",
           "auditMode": "all"
         },
-        "SdkAnalysisLevel": "10.0.200"
+        "SdkAnalysisLevel": "10.0.100"
       },
       "frameworks": {
         "net10.0": {
@@ -83,7 +60,7 @@
               "privateAssets": "all"
             }
           },
-          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\10.0.201/PortableRuntimeIdentifierGraph.json",
+          "runtimeIdentifierGraphPath": "/usr/lib/dotnet/sdk/10.0.103/PortableRuntimeIdentifierGraph.json",
           "packagesToPrune": {
             "Microsoft.CSharp": "(,4.7.32767]",
             "Microsoft.VisualBasic": "(,10.4.32767]",
